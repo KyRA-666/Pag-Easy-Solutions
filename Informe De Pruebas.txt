@@ -1,0 +1,23 @@
+Informe De Pruebas
+
+.Pagina Principal:En la pagina principal todos los botones tanto Login como registro funcionan correctamente y se encuntra
+la suficiente informacion necesaria. FUNCIONAL
+
+.Login: En el login todos los espacios funcionan correctamente en la parte de cedula solo se puede ingresar numeros osea que es
+correcto, en la zona de contraseña cuando se escribe aparece oculta osea que es correcto y cuando se le da al boton de iniciar
+sesion redirige a la pagina principal. FUNCIONAL
+
+.Registro: En la zona de registro pide cedula, correo electronico y contraseña en cedula pide solo numeros, en el correo pide un 
+correo valido y en contraseña la oculta al escribir, al darle al boton de registrarse redirige a la pagina principal. FUNCIONAL
+
+.Historial Clinico: En la zona de historial clinico pide Cedula, el tipo de examen y el año en que se realizo el examen todo funciona
+correctamente, al darle al boton de consultar. FUNCIONAL
+
+.Consultas: En la zona de consultas muestra el nombre fecha y hora y tipo de examen, el nombre de la persona que se realizo el examen,
+La fecha que se lo realizo y el tipo de examen que se realizo. FUNCIONAL
+
+.Citas: En la zona de citas pide Fecha en la que desea el examen, el procedimiento "Tipo de examen" y la sede el lugar donde desee
+realizarse el examen al darle al boton de consultar le redirige a los horarios disponibles. FUNCIONAL
+
+.Atencion Al Cliente: En la zona de atencion al cliente salen las preguntas mas frecuentes sobre lugar de la eps numeros de ayuda
+y correos y ayuda sobre las citas medicas. FUNCIONAL

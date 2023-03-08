@@ -1,0 +1,101 @@
+.selection{
+    background: var(--black);
+    background: var(--verde);
+    color: rgba(93, 148, 111, 0.89);
+}
+html{
+    overflow: hidden;
+}
+body{
+    background: whitesmoke  ;
+}
+section{
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8em 3rem;
+    border-radius: 5rem;
+    background: rgba(93, 148, 111, 0.89);
+
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    transition: all .3s linear;
+}
+.btn :hover{
+    transform: scale(1.1);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1) ;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    
+    color: rgba(93, 148, 111, 0.89)
+}
+header .navbar a{
+    
+    margin-left: 2rem;
+    color: var(--black);
+
+}
+header.navbar a:hover{
+    color: var(--verde);
+}
+header input{
+    display: none;
+}
+header label{
+    
+    color: var(--verde);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center; 
+}
+.inicio .image img{
+    width: 55vh;
+    animation: float 3s linear infinite;
+}
+@keyframes float{
+    0%,100%{
+        transform:translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}
+.inicio .content h3{
+    
+    color: #333;
+    text-transform: uppercase;
+}
+.inicio .content h3 span{
+    color: rgba(93, 148, 111, 0.89);
+    text-transform: uppercase;
+}
+.inicio .content p{
+    
+    color:gray ;
+    padding: 1rem 0;
+}
